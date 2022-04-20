@@ -8,13 +8,12 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 export default function MultiActionAreaCard() {
   return (
     <div className='cards'>
-      <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+    <Card className='innerCard'>
+    <CardActionArea>
         <CardMedia
           component="img"
-          height="280"
-          width="5280"
-          image="https://picsum.photos/300/200/"
+          height="110"
+          image="https://goochlandchurches.files.wordpress.com/2019/08/blue.jpg"
           alt="img"
         />
         <CardContent>
@@ -31,7 +30,57 @@ export default function MultiActionAreaCard() {
           Generate
         </Button>
       </CardActions>
-    </Card>
+      </Card>
+
+      <Card className='innerCard'> 
+    <CardActionArea>
+        <CardMedia
+          component="img"
+          height="110"
+          image="https://wallpaperboat.com/wp-content/uploads/2020/10/26/58172/lime-green-19.jpg"
+          alt="img"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            <h6>Enrich your data</h6>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Take your internal data further by enriching and expanding it with external data signals
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="big" color="primary">
+          Enrich
+        </Button>
+      </CardActions>
+      </Card>
+
+      <Card className='innerCard'> 
+    <CardActionArea>
+        <CardMedia
+          component="img"
+          height="110"
+          image="https://www.myfuturecom.com/wp-content/uploads/2019/01/iStock-952063608-1440x700.jpg"
+          alt="img"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            <h6>Discover predictive features</h6>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+          Build and optimize your predictions with impactful external data features, and deploy models or export features
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="big" color="primary">
+          Predict
+        </Button>
+      </CardActions>
+      </Card>
+
+
     </div>
   );
 }

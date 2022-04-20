@@ -4,9 +4,12 @@ const Main = () => {
     return (
         <div className='main'>
             <p>
-            Welcome to our
-            external data platform
-            Unlock the power of external data by choosing one of the options below
+                <b>
+                <u><a>Welcome to our
+                external data platform.
+                </a>
+                </u>
+                </b>
             </p>
             <MultiActionAreaCard />
         </div>
