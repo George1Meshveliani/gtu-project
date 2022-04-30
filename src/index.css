@@ -14,7 +14,11 @@ code {
     monospace;
 }
 
-.main, .cards {
+.main {
+  padding: 0.5%;
+}
+
+.cards {
   padding: 0.5%;
 }
 
