@@ -10,6 +10,15 @@ export default function MultiActionAreaCard() {
   return (
     <div className='cards'>
       <Container>
+            <p className='welcome-header'>
+                <b>
+                <u><a>Welcome to our
+                external data platform.
+                </a>
+                </u>
+                </b>
+                <p>Unlock the power of external data by choosing one of the options below</p>
+            </p>
         <Row>
           <Col sm={4}>
            

@@ -6,7 +6,7 @@ body {
     /*
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background-color: rgb(105, 204, 191, 0.2);
+  background-color: rgba(38, 241, 255, 0.1);
 }
 
 code {
@@ -15,14 +15,20 @@ code {
 }
 
 .main {
-  padding: 0.5%;
+  text-align: justify;
 }
 
-.cards {
+/* .cards {
   padding: 0.5%;
-}
+} */
 
 .innerCard {
   /* padding: 5px; */
   margin-bottom: 25px;
 }
+
+.welcome-header {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
