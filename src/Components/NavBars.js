@@ -17,7 +17,7 @@ const NavBars  = () => {
         link: '/enrich'
       },
       {
-        text: 'Predic',
+        text: 'Predict',
         link: '/predict'
       }
     ],
