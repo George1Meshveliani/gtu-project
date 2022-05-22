@@ -8,6 +8,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import audience from '../assets/audience.webp';
 import enrich from '../assets/enrichdata.png';
 import predict from '../assets/predict.jpg';
+import { Link } from 'react-router-dom';
 
 export default function MultiActionAreaCard() {
   return (
@@ -25,7 +26,7 @@ export default function MultiActionAreaCard() {
         <Row>
           <Col sm={4}>
            
-            <Card className='innerCard'>
+           <Link to='/generate'> <Card className='innerCard'>
               <CardActionArea>
                   <CardMedia
                     component="img"
@@ -48,10 +49,12 @@ export default function MultiActionAreaCard() {
                   </Button>
                 </CardActions>
             </Card>
+            </Link>
           </Col>
           <Col sm={4}>
 
-            <Card className='innerCard'> 
+           <Link to='/enrich'>
+              <Card className='innerCard'> 
     <CardActionArea>
         <CardMedia
           component="img"
@@ -74,10 +77,11 @@ export default function MultiActionAreaCard() {
         </Button>
       </CardActions>
       </Card>
+      </Link>
           </Col>
           <Col sm={4}>
             
-            <Card className='innerCard'> 
+            <Link to='/predict' ><Card className='innerCard'> 
           <CardActionArea>
               <CardMedia
                 component="img"
@@ -100,6 +104,7 @@ export default function MultiActionAreaCard() {
               </Button>
             </CardActions>
             </Card>
+            </Link>
                 </Col>
               </Row>
       </Container>
