@@ -35,3 +35,9 @@ code {
 .img {
   padding-left: 80px;
 }
+
+.predict {
+  padding-left: 20%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
